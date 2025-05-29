@@ -1,0 +1,20 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             xmlns:avalonia="clr-namespace:Mapsui.UI.Avalonia;assembly=Mapsui.UI.Avalonia"
+             x:Class="AvaloniaMapsuiLib.MapTool">
+  <DockPanel>
+    
+    <StackPanel Name="rightTool" DockPanel.Dock="Right">
+      <TextBlock Text="移动"></TextBlock>
+      <TextBlock Text="放大"></TextBlock>
+      <TextBlock Text="缩小"></TextBlock>
+      <TextBlock Text="框选"></TextBlock>
+      <TextBlock Text="测距"></TextBlock>
+      <TextBlock Text="标记"></TextBlock>
+    </StackPanel>
+    <avalonia:MapControl  Name="MapControl" DockPanel.Dock="Left" />
+  </DockPanel>
+</UserControl>

@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\ic.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\ic.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mapsui" Version="5.0.0-beta.16" />
+    <PackageReference Include="Mapsui.Avalonia" Version="5.0.0-beta.16" />
+    <PackageReference Include="Mapsui.Nts" Version="5.0.0-beta.16" />
+    <PackageReference Include="Mapsui.Tiling" Version="5.0.0-beta.16" />
+  </ItemGroup>
+
+</Project>

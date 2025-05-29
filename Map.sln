@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Map", "Map\Map.csproj", "{52BD783C-35E7-4FC0-B20E-75805F84D02C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaMapsuiLib", "AvaloniaMapsuiLib\AvaloniaMapsuiLib.csproj", "{087BF4F1-B13D-485D-B711-2E413AB7634B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52BD783C-35E7-4FC0-B20E-75805F84D02C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52BD783C-35E7-4FC0-B20E-75805F84D02C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52BD783C-35E7-4FC0-B20E-75805F84D02C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52BD783C-35E7-4FC0-B20E-75805F84D02C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{087BF4F1-B13D-485D-B711-2E413AB7634B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{087BF4F1-B13D-485D-B711-2E413AB7634B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{087BF4F1-B13D-485D-B711-2E413AB7634B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{087BF4F1-B13D-485D-B711-2E413AB7634B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1F0175E-2CD1-4080-9C10-EF513CDF8D6F}
+	EndGlobalSection
+EndGlobal
